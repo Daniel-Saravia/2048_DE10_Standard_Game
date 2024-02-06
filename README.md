@@ -2,32 +2,38 @@
 
 ![image](https://github.com/Daniel-Saravia/2048_DE10_Standard_Game/assets/108732138/dfd517ee-bf83-46bc-97f2-d10224ed323c)
 
-
-2048 Game for DE10-Standard FPGA Board
+2048 FPGA Game for DE10-Standard
 Overview
-This project is an implementation of the popular 2048 game, designed to run on the DE10-Standard FPGA board. It utilizes the board's LCD display to render the game's graphical interface and handle user inputs.
+This project brings the addictive 2048 puzzle game to the DE10-Standard FPGA board, showcasing an engaging blend of software engineering and hardware interaction. Leveraging the board's LCD display, this implementation offers a graphical interface for real-time gameplay, making efficient use of the FPGA's capabilities for handling user inputs and rendering.
 
 Key Features
-Graphical LCD Interface: The game features a graphical interface displayed on the LCD screen of the DE10-Standard board.
-Game Logic: Implements the core mechanics of the 2048 game, including tile movements and merging.
-Hardware Interaction: Directly interacts with the hardware registers of the FPGA board for display and control.
-
+Graphical LCD Interface: A vivid and responsive graphical interface on the DE10-Standard's LCD screen, enhancing the gameplay experience.
+Game Logic: Faithfully implements the 2048 game's core mechanics, such as tile movements and merging, providing a challenging yet intuitive puzzle-solving experience.
+Hardware Interaction: Direct manipulation of the FPGA board's hardware registers enables precise control over the display and input mechanisms, offering a seamless interaction between the player and the game.
 File Structure
-main.c: The entry point of the program, handling the initialization and main game loop.
-gameLogic.c & gameLogic.h: Contains the core game logic and mechanics.
-LCD_Driver.c & LCD_Driver.h: Manage the LCD display, including initialization and rendering functions.
-LCD_Lib.c & LCD_Lib.h: Provide additional functionalities for the LCD display.
-lcd_graphic.c & lcd_graphic.h: Handle graphical rendering on the LCD.
-font.c & font.h: Define the fonts used in the game's display.
-terasic_lib.c & terasic_lib.h: Include utility functions for the Terasic DE10-Standard board.
+main.c: Serves as the program's entry point, orchestrating the game's initialization and main loop.
+gameLogic.c & gameLogic.h: Define the game's mechanics and rules.
+LCD_Driver.c & LCD_Driver.h: Responsible for managing the LCD display, including its initialization and rendering operations.
+LCD_Lib.c & LCD_Lib.h: Offer extended functionalities for the LCD display.
+lcd_graphic.c & lcd_graphic.h: Specialize in graphical rendering on the LCD.
+font.c & font.h: Contain font definitions for the game's text elements.
+terasic_lib.c & terasic_lib.h: Provide utility functions specific to the Terasic DE10-Standard board.
+Getting Started
+Prerequisites
+Ensure you have the following tools and resources available for a Windows environment:
 
-How to Run
+Intel Quartus Prime: Download Link
+DE10-Standard Board: Available with an educational discount at Terasic's Official Website
+Putty for Windows: Download Link
+FileZilla: Download Link
+GCC Compiler: Installation Guide
+Installation
 Clone the repository to your local machine.
 Compile the source code using the provided Makefile.
-Load the compiled program onto the DE10-Standard FPGA board.
-Interact with the game using the board's input peripherals.
-License
-This project is licensed under the terms of the MIT license.
+Load the compiled program onto your DE10-Standard FPGA board using Quartus Prime.
+Running the Game
+Interact with the game through the DE10-Standard board's input peripherals following the on-screen instructions. Enjoy the classic 2048 puzzle with the enhanced experience of hardware interaction.
 
 Acknowledgments
-Special thanks to Terasic Technologies Inc. for providing the base code for LCD interaction and hardware abstraction.
+Special thanks to Terasic Technologies Inc. for their foundational code, which significantly facilitated LCD management and hardware abstraction in this project.
+
