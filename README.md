@@ -1,4 +1,5 @@
 ![image](https://github.com/Daniel-Saravia/2048_DE10_Standard_Game/assets/108732138/b944b09d-c37b-4308-8e1c-267181dfebd3)
+
 2048 Game for DE10-Standard FPGA Board
 Overview
 This project is an implementation of the popular 2048 game, designed to run on the DE10-Standard FPGA board. It utilizes the board's LCD display to render the game's graphical interface and handle user inputs.
