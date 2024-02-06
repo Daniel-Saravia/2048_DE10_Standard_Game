@@ -11,13 +11,15 @@ Graphical LCD Interface: A vivid and responsive graphical interface on the DE10-
 Game Logic: Faithfully implements the 2048 game's core mechanics, such as tile movements and merging, providing a challenging yet intuitive puzzle-solving experience.
 Hardware Interaction: Direct manipulation of the FPGA board's hardware registers enables precise control over the display and input mechanisms, offering a seamless interaction between the player and the game.
 File Structure
-main.c: Serves as the program's entry point, orchestrating the game's initialization and main loop.
-gameLogic.c & gameLogic.h: Define the game's mechanics and rules.
-LCD_Driver.c & LCD_Driver.h: Responsible for managing the LCD display, including its initialization and rendering operations.
-LCD_Lib.c & LCD_Lib.h: Offer extended functionalities for the LCD display.
-lcd_graphic.c & lcd_graphic.h: Specialize in graphical rendering on the LCD.
-font.c & font.h: Contain font definitions for the game's text elements.
-terasic_lib.c & terasic_lib.h: Provide utility functions specific to the Terasic DE10-Standard board.
+plaintext
+Copy code
+- main.c: Serves as the program's entry point, orchestrating the game's initialization and main loop.
+- gameLogic.c & gameLogic.h: Define the game's mechanics and rules.
+- LCD_Driver.c & LCD_Driver.h: Responsible for managing the LCD display, including its initialization and rendering operations.
+- LCD_Lib.c & LCD_Lib.h: Offer extended functionalities for the LCD display.
+- lcd_graphic.c & lcd_graphic.h: Specialize in graphical rendering on the LCD.
+- font.c & font.h: Contain font definitions for the game's text elements.
+- terasic_lib.c & terasic_lib.h: Provide utility functions specific to the Terasic DE10-Standard board.
 Getting Started
 Prerequisites
 Ensure you have the following tools and resources available for a Windows environment:
